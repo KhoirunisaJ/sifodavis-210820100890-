@@ -5,7 +5,7 @@ import seaborn as sns
 import plotly.express as px
 
 # Load File Merge IMDB CSV 
-file_path = 'C:\\Users\\Khoirunisa Jannatuzzahra\\Documents\\A SEMESTER 6\\DATA VISUALISASI\\DATA\\imdbdata_3(final).csv'
+file_path = 'imdbdata_3(final).csv'
 data = pd.read_csv(file_path, delimiter=';')
 
 def show_imdb_dashboard():
